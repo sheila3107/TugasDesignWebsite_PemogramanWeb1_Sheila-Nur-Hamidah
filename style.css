@@ -1,0 +1,79 @@
+/* ======== WARNA DASAR ======== */
+body {
+  background-color: #fff5f8;
+  color: #5a4b4b;
+  font-family: 'Poppins', sans-serif;
+}
+
+.text-pink {
+  color: #e66b8d !important;
+}
+
+.btn-pink {
+  background-color: #e66b8d;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 25px;
+  transition: all 0.3s ease;
+}
+
+.btn-pink:hover {
+  background-color: #d85a7b;
+  color: white;
+  transform: scale(1.05);
+}
+
+/* ======== HERO SECTION ======== */
+.hero {
+  background-color: #ffeef3;
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* ======== NAVBAR ======== */
+.navbar {
+  background-color: #fff8fb !important;
+}
+
+.navbar-brand {
+  color: #e66b8d !important;
+  font-weight: 600;
+}
+
+.nav-link {
+  color: #6b5b5b !important;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #e66b8d !important;
+}
+
+/* ======== CARD MENU ======== */
+.card {
+  border: none;
+  border-radius: 20px;
+  background-color: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(230, 107, 141, 0.15);
+}
+
+.card-img-top {
+  border-radius: 20px 20px 0 0;
+  background-color: #fff5f8;
+}
+
+/* ======== FOOTER ======== */
+footer {
+  background-color: #ffeef3;
+  color: #6b5b5b;
+  font-size: 0.9rem;
+}
